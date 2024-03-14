@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "express": "^4.18.3"
+  },
+  "name": "cookiedemo",
+  "version": "1.0.0",
+  "description": "This project is for cookie demo",
+  "main": "index.js",
+  "devDependencies": {},
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saba Azeem",
+  "license": "ISC"
+}
