@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 const app = express();
 
 app.get('/',(req,res) =>{
-    res.setHeader("set-cookie",['setFromServer=1']);
+    res.setHeader("set-cookie",['setFromServer=1' , "jscantseethis=1; httponly"]);
     res.sendFile(path.join(__dirname,`./index.html`));
 });
 // app.get('/name',(req,res)=>{
